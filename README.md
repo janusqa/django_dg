@@ -21,3 +21,8 @@
 - back up one folder create a templates folder in same dir as manage.py to hold your html templates
 - go down one directory again to settings.py. Find "TEMPLATES" array, and in the "DIRS" array spcify your templates directory as "templates:
 - now open the views.py to connect up our templates
+  
+### CSS
+- opening settings and in the top "import os"
+- Under STATIC_URL add a "STATICFILES_DIRS" array varible and add to it the location of the static folder you created.
+- now in your html templates you can add your style sheets
