@@ -12,11 +12,11 @@
 
 ### Admin Project
 - django-admin startproject <[myproject]>
-- cd [<myproject>]
+- cd <[myproject]>
 - python manage.py runserver 8000 #8000 is the default port
 
 ### Scaffold a site
-- in the [<myproject>]/[<myproject>]/urls.py folder add your pages to urlpatterns
+- in the <[myproject]>/<[myproject]>/urls.py folder add your pages to urlpatterns
 - now create in same folder a views.py to hold your views (these are controllers)
 - back up one folder create a templates folder in same dir as manage.py to hold your html templates
 - go down one directory again to settings.py. Find "TEMPLATES" array, and in the "DIRS" array spcify your templates directory as "templates:
