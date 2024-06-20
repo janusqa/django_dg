@@ -36,3 +36,7 @@
 - Each app can have its own templates/<[app_name]> folder to host templates specific to it
 - Now create a urls.py inside the posts app dir that will be used to link up the templates for this app and make them accessible via views.py
 - Will need to connect this back up in the urls.py of the main project. It's somewhat like node js router/controller patter
+
+### DB Migrations
+- python manage.py makemigrations # scaffold any changes to Models into a migration
+- python manage.py migrate # Apply any changes in scaffoled migrations 
