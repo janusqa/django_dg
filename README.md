@@ -38,5 +38,8 @@
 - Will need to connect this back up in the urls.py of the main project. It's somewhat like node js router/controller patter
 
 ### DB Migrations
-- python manage.py makemigrations # scaffold any changes to Models into a migration
-- python manage.py migrate # Apply any changes in scaffoled migrations 
+- python manage.py makemigrations # scaffold any changes to Models into a migration. Similar to "dotnet ef migrations add" command in c#
+- python manage.py migrate # Apply any changes in scaffoled migrations. Simlar to "dotnet ef database update" command in c#
+
+### Python/Django shell
+- python manage.py shell # start a python/django shell
