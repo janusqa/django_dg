@@ -43,3 +43,8 @@
 
 ### Python/Django shell
 - python manage.py shell # start a python/django shell
+
+### Django Admin
+- python manage.py createsuperuser # create credentials to access Django Administration
+- Access admin via localhost:8000/admin and login with your freshly minted credentials
+- We get Groups and Users for free.  To Add aditional models, need to set them up in admin.py which is in for example the root of an app folder
