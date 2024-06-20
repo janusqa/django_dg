@@ -48,3 +48,10 @@
 - python manage.py createsuperuser # create credentials to access Django Administration
 - Access admin via localhost:8000/admin and login with your freshly minted credentials
 - We get Groups and Users for free.  To Add aditional models, need to set them up in admin.py which is in for example the root of an app folder
+
+### IMAGES via Admin
+- add MEDIA_URL and MEDIA_ROOT to settings.py in main project folder
+- configure urlpatterns in urls.py with these 
+- install Pillow ($ pip install Pillow). Remember to do this within your virtual env
+- Now for example in the Post model we can add an image field
+- 
