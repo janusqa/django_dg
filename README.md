@@ -54,4 +54,9 @@
 - configure urlpatterns in urls.py with these 
 - install Pillow ($ pip install Pillow). Remember to do this within your virtual env
 - Now for example in the Post model we can add an image field
-- 
+  
+### settings.py
+- no longer need to import os, so remove it
+- Set DEBUG to False when deploying
+- populate ALLOWED_HOSTS with the hosts that can access your django
+- run "$ python manage.py collectstatic". This is useful for deployment scenarios. It pull all your static content together and places it in the specified "assets" folder
